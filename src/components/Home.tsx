@@ -95,17 +95,15 @@ const Home = ({
               alt="Wallet"
             />
           </button>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              handleLinkClick(6);
-            }}
+          <a
+            href="https://creator.bid/agents/678648cdba2b8db95be3f5bb"
+            target="_blank"
             className="min-w-[100px] h-[38px] rounded-md border-2 border-white/30 flex items-center justify-center bg-[#287CF1]"
           >
             <h1 className="font-manrope font-bold text-base text-white">
               Buy $A1C
             </h1>
-          </button>
+          </a>
         </div>
       </div>
 

@@ -73,7 +73,7 @@ function App() {
       <div className="font-manrope">
       {/* Sidebar */}
       <div
-        className={`sidebar fixed top-0 left-0 w-1/2 h-full bg-black z-50 transform transition-transform duration-300 ${
+        className={`sidebar fixed top-0 left-0 w-[60%] h-full bg-black z-50 transform transition-transform duration-300 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } lg:hidden`}
       >
@@ -114,7 +114,8 @@ function App() {
             )
           )}
           <a
-            href="#5"
+            href="https://creator.bid/agents/678648cdba2b8db95be3f5bb"
+            target="_blank"
             className="text-center w-full max-h-[38px] font-manrope font-bold text-base leading-[21.86px] bg-[#287CF1] border-2 rounded-[6px] px-[14px] py-[8px]"
           >
             Buy $A1C
